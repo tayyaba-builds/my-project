@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form to apply for sigma web development course</title>
+    <style>
+        label {
+            display: inline;
+            width: 160px;
+            display: inline;
+            box-shadow: 12px;
+        }
+
+        input,
+        select,
+        textarea {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        div {
+            margin-bottom: 12px;
+            border-radius: 12px;
+        }
+
+        #comment-div label {
+            display: block;
+            margin-bottom: 5px;
+
+        }
+
+        body {
+            background-color: rgb(236, 230, 230);
+        }
+
+        div button {
+            padding: 9px 9px;
+            border-radius: 7px;
+            margin-top: 12px;
+            background-color: #261297;
+            color: #fff;
+            border: none;
+        }
+
+        button:hover {
+            color: #0d6efd;
+            cursor: pointer;
+            background-color: #0b5ed7;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form to Apply for Sigma Web Development course</h1>
+    <form action="post">
+        <h2>
+            Personal Info
+        </h2>
+        <div>
+            <label for="Enter your username"></label>
+            <input type="text" placeholder="Enter your username">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="Father name">Father name: </label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="city name">City name :</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+
+            <label for="Contact number">Contact number:</label>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <label for="Pin number">Pin number:</label>
+            <input type="number" id="number">
+        </div>
+        <h2>
+            Academic Info
+        </h2>
+        <div>
+            <label for="Intermediate marks">Intermediate Marks :</label>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <label for="Registration number">Registration number:</label>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <label for="Degree number">Degree number:</label>
+            <input type="number" id="number">
+        </div>
+        <div>
+            <h3>
+                Choose Intermediate Session
+            </h3>
+        </div>
+        <div>
+            <select name="Session_ year" id="" Session_ year>
+                <option value="2018-2020">2018-2020</option>
+                <option value="2020-2022> 2020-2022</option>
+               <option value=" 2022-2024"> 2022-2024</option>
+                <option value="2024-2026">2024-2026</option>
+            </select>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50">
+                   Enter your comment here .....
+        </textarea>
+        </div>
+        <footer>
+            <input type="checkbox" id="subscribe" name="Subscribe">
+            <label for="Subscribe">Subscribe to newsletter</label>
+            </div>
+            <div>
+                <div class="button"><button>Submit</button></div>
+            </div>
+        </footer>
+    </form>
+</body>
+
+</html>
